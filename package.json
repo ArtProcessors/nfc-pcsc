@@ -50,7 +50,7 @@
     "test": "cross-env NODE_ENV=test ava test/tests.js --verbose"
   },
   "dependencies": {
-    "@pokusew/pcsclite": "^0.5.2"
+    "@pokusew/pcsclite": "github:ap-mitch/node-pcsclite"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
