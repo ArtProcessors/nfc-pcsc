@@ -1,12 +1,16 @@
 "use strict";
 
-const mock = require('mock-require');
+const mock = require("mock-require");
 
-mock('@pokusew/pcsclite', {});
+mock("@ap-mitch/pcsclite", {});
 
 const {
 	NFC,
-	Reader, TAG_ISO_14443_3, TAG_ISO_14443_4, KEY_TYPE_A, KEY_TYPE_B,
+	Reader,
+	TAG_ISO_14443_3,
+	TAG_ISO_14443_4,
+	KEY_TYPE_A,
+	KEY_TYPE_B,
 	ACR122Reader,
 	UNKNOWN_ERROR,
 	FAILURE,
@@ -22,4 +26,4 @@ const {
 	ConnectError,
 	DisconnectError,
 	GetUIDError
-} = require('../dist/index');
+} = require("../dist/index");
