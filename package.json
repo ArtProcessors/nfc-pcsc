@@ -28,6 +28,7 @@
     "foxxyz (https://github.com/foxxyz)"
   ],
   "main": "dist/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "babel src --out-dir dist",
     "example": "node -r @babel/register examples/read-write.js",
@@ -44,7 +45,7 @@
     "test": "cross-env NODE_ENV=test ava test/tests.js --verbose"
   },
   "dependencies": {
-    "@ap-mitch/pcsclite": "^0.5.2"
+    "@ap-mitch/pcsclite": "^0.5.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
