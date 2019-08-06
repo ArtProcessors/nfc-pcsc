@@ -14,18 +14,19 @@
     "tag",
     "ultralight"
   ],
-  "homepage": "https://github.com/pokusew/nfc-pcsc#readme",
+  "homepage": "https://github.com/ap-mitch/nfc-pcsc#readme",
   "bugs": {
-    "url": "https://github.com/pokusew/nfc-pcsc/issues"
+    "url": "https://github.com/ap-mitch/nfc-pcsc/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pokusew/nfc-pcsc.git"
+    "url": "git+https://github.com/ap-mitch/nfc-pcsc.git"
   },
   "license": "MIT",
   "author": "Martin Endler (https://github.com/pokusew)",
   "contributors": [
-    "foxxyz (https://github.com/foxxyz)"
+    "foxxyz (https://github.com/foxxyz)",
+    "Mitch McCaffrey (https://github.com/ap-mitch)"
   ],
   "main": "dist/index.js",
   "types": "index.d.ts",
