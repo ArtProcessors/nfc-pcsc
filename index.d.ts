@@ -52,6 +52,7 @@ declare module "@ap-mitch/nfc-pcsc" {
 		aid: string | Function | Buffer;
 		readonly name: string;
 
+		constructor(reader: CardReader, logger: any);
 		connect(mode: ReaderConnectMode): void;
 		disconnect(): void;
 		transmit(data: Buffer, responseMaxLength: number): Promise<Buffer>;
