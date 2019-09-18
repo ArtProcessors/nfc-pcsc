@@ -8,12 +8,12 @@ declare module "@ap-mitch/nfc-pcsc" {
 		previousError: BaseError;
 	}
 
-	type ReaderConnection = {
+	export type ReaderConnection = {
 		type: number;
 		protocol: number;
 	};
 
-	type Card = {
+	export type Card = {
 		atr?: Buffer;
 		standard?: "TAG_ISO_14443_3" | "TAG_ISO_14443_4";
 		type?: string;
@@ -41,7 +41,7 @@ declare module "@ap-mitch/nfc-pcsc" {
 		close(): void;
 	}
 
-	type ReaderConnectMode = "CONNECT_MODE_DIRECT" | "CONNECT_MODE_CARD";
+	export type ReaderConnectMode = "CONNECT_MODE_DIRECT" | "CONNECT_MODE_CARD";
 
 	export class Reader extends EventEmitter {
 		reader: CardReader;
